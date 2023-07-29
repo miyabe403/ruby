@@ -1,4 +1,4 @@
-total_price = 100
+total_price = 100  # 所持金（total_price）の値が100
 
 if total_price > 100
   puts "みかんを購入。所持金に余りあり"
