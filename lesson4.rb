@@ -1,2 +1,2 @@
 subjects = ["国語", "算数", "理科", "社会"]
-puts subjects[2]
+puts subjects[2]  # "理科"は3番目の要素なので添字は2になります。
