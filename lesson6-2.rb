@@ -1,9 +1,9 @@
 puts "計算をはじめます"
 puts "何回繰り返しますか?"
 
-input = gets.to_i
+input = gets.to_i  # 計算を繰り返す回数（input）
 
-i = 1
+i = 1  # 変数i（初期値1）
 while i <= input do
   puts "#{i}回目の計算"
   puts "2つの値を入力してください"
