@@ -4,10 +4,10 @@ class Car
   end
 end
 
-class Bus < Car
+class Bus < Car  # class 子クラス < 親クラス
 end
 
-bus = Bus.new  # class 子クラス < 親クラス
+bus = Bus.new  
 bus.run(5)
 
 puts Bus.superclass  # 親クラスを調べるときは「.superclass」を使用します。
