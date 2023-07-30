@@ -6,8 +6,8 @@ end
 
 class Truck < Car  # class 子クラス < 親クラス
   def run(distance)
-    super
-    puts "大きな荷物を乗せて走ります。"
+    super  # 「super」は、子クラスのメソッド内で定義すると、親クラス内にある同じ名前のメソッドを呼び出すことができます。
+    puts "大きな荷物を乗せて走ります。"  # 親クラスのメソッドにはない要素を追加したい時などに使用
   end
 end
 
