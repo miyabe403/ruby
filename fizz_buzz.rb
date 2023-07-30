@@ -1,9 +1,9 @@
 def fizz_buzz(number)
-  if number % 15 == 0
+  if number % 15 == 0  # 「3と5の両方で割り切れる数値」= 15で割り切れる数値（＝15の倍数）
     "FizzBuzz"
-  elsif number % 3 == 0
+  elsif number % 3 == 0  # 3で割り切れる数値（＝3の倍数）
     "Fizz"
-  elsif number % 5 == 0
+  elsif number % 5 == 0  # 5で割り切れる数値（＝5の倍数）
     "Buzz"
   else
     number.to_s
